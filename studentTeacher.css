@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-btn {
+    display: inline-block;
+    font-size: 26px;
+    border: none;
+    padding: 12px 28px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #004affbd;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.student-btn {
+        display: inline-block;
+        font-size: 26px;
+        border: none;
+        padding: 12px 28px;
+        text-decoration: none;
+        color: black;
+        background-color: #004affbd;
+        border-radius: 12px;
+        cursor: pointer;    
+}
